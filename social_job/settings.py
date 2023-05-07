@@ -6,8 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-74w+f)47csbz+1xew)^6t55540-7tzsd!424aw!kj7e0r*ah0+'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['DRF-Social-network-dev.ap-south-1.elasticbeanstalk.com']
 
