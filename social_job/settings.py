@@ -8,7 +8,7 @@ SECRET_KEY = 'django-insecure-74w+f)47csbz+1xew)^6t55540-7tzsd!424aw!kj7e0r*ah0+
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['DRF-Social-network-dev.ap-south-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['DRF-Social-network-dev.ap-south-1.elasticbeanstalk.com', '172.31.5.142']
 
 # Application definition
 INSTALLED_APPS = [
@@ -136,26 +136,26 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'social_job.wsgi.application'
 
-DATABASES = {
-    "default": {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'awseb-e-vdxp3vxbkp-stack-awsebrdsdatabase-pe1o9kfoyqym',
-        'USER': 'gerald',
-        'PASSWORD': 'gerald2023',
-        'HOST': 'awseb-e-vdxp3vxbkp-stack-awsebrdsdatabase-pe1o9kfoyqym.ctdsidsevol6.ap-south-1.rds.amazonaws.com',
-        'PORT': '5432'
-    }
-}
-
 # DATABASES = {
 #     "default": {
 #         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'socialNetwork',
-#         'USER': 'postgres',
-#         'PASSWORD': '12345',
-#         'HOST': 'localhost'
+#         'NAME': 'awseb-e-vdxp3vxbkp-stack-awsebrdsdatabase-pe1o9kfoyqym',
+#         'USER': 'gerald',
+#         'PASSWORD': 'gerald2023',
+#         'HOST': 'awseb-e-vdxp3vxbkp-stack-awsebrdsdatabase-pe1o9kfoyqym.ctdsidsevol6.ap-south-1.rds.amazonaws.com',
+#         'PORT': '5432'
 #     }
 # }
+
+DATABASES = {
+    "default": {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'socialNetwork',
+        'USER': 'postgres',
+        'PASSWORD': '12345',
+        'HOST': 'localhost'
+    }
+}
  
 
 # Password validation
